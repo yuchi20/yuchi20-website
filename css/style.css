@@ -98,11 +98,6 @@ body {
   transition: color 0.3s ease;
 }
 
-.main-nav a:hover {
-  color: var(--main-green);
-}
-
-
 
 /* ヘッダー内のコンテンツ */
 .header-inner {
@@ -135,24 +130,6 @@ body {
   transition: color 0.3s ease;
 }
 
-.main-nav a:hover {
-  color: var(--main-green); /* メニューリンクのホバー時 */
-}
-
-
-/* ヘッダー 
-.site-header {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  background: var(--white);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  z-index: 1000;
-  transition: all 0.3s ease;
-}
-.site-header.scrolled {
-  background: var(--main-green);
-  box-shadow: 0 3px 12px rgba(135, 89, 69, 0.4);
-}*/
 .header-inner {
   max-width: 1200px;
   margin: 0 auto;
@@ -169,21 +146,19 @@ body {
   text-decoration: none;
   transition: color 0.3s ease;
 }
-.site-header.scrolled .logo a {
-  color: var(--white);
-}
+
 .menu-toggle {
   font-size: 1.8rem;
   background: none;
   border: none;
   cursor: pointer;
-  color: var(--main-green);
+  color: rgba(135, 89, 69);
   display: none;
 }
-.site-header.scrolled .menu-toggle {
+/*.site-header.scrolled .menu-toggle {
   color: rgba(135, 89, 69);
 ;
-}
+}*/
 
 /* ナビ */
 .main-nav ul {
@@ -198,10 +173,6 @@ body {
   padding: 8px 0;
   transition: color 0.3s ease;
   font-size: 1rem;
-}
-.main-nav a:hover,
-.main-nav a:focus {
-  color: white;
 }
 .main-nav.open {
   display: block;
@@ -235,10 +206,6 @@ body {
     color: rgba(135, 89, 69);
 ;
     font-size: 1.1rem;
-  }
-  .main-nav a:hover,
-  .main-nav a:focus {
-    color: white;
   }
 }
 
@@ -639,7 +606,6 @@ footer {
   opacity: 1;
   visibility: visible;
 }
-
 
 
 
