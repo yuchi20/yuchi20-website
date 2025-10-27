@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>登録制保育士 説明会 | スタイル株式会社</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <!-- Loading -->
+  <div id="loading">
+    <div class="loader-inner">
+      <img src="images/74.png" alt="ロゴ" width="120" />
+      <p>読み込み中...</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="logo"><a href="">スタイル株式会社</a></h1>
+      <button class="menu-toggle" id="menu-toggle" aria-label="メニューを開く" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="#details">開催概要</a></li>
+          <li><a href="#about">登録制保育士とは</a></li>
+          <li><a href="#benefits">メリット</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" data-aos="fade-down">
+    <div class="hero-inner">
+      <h2>登録制保育士 説明会 開催！</h2>
+      <p>働き方を変える第一歩。まずはお気軽にご参加ください。</p>
+      <a href="#details" class="btn btn-primary">詳しく見る</a>
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section id="news" data-aos="fade-up">
+    <h2>NEWS</h2>
+    <img src="images/オレンジ　グラデーション　写真　シンプル　セミナー　Facebook広告.jpg" alt="保育のバナー" />
+  </section>
+
+  <!-- 開催概要 -->
+  <section id="details" data-aos="fade-up">
+    <h2>開催概要</h2>
+    <ul class="info-list">
+      <li><strong>日時：</strong>毎月第2・第4木曜 10:00〜</li>
+      <li><strong>場所：</strong>スタイル本社（東京都渋谷区）</li>
+      <li><strong>対象：</strong>保育士資格をお持ちの方（未経験可）</li>
+      <li><strong>費用：</strong>無料</li>
+    </ul>
+  </section>
+
+  <!-- 登録制保育士とは -->
+  <section class="intro" id="about" data-aos="zoom-in" data-aos-delay="600">
+    <div class="intro-content">
+      <div class="intro-text">
+        <h2>登録制保育士とは？</h2>
+        <p>
+          登録制保育士は、ライフスタイルに合わせて柔軟に働ける新しい働き方。<br />
+          スタイルクリエイトでは、ご希望に応じた勤務日・時間でのお仕事をご紹介します。
+        </p>
+      </div>
+      <div class="swiper intro-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/benson-low-o8njpFsiR-g-unsplash.jpg" alt="保育のイメージ1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/cdc-gsRi9cWCIB0-unsplash.jpg" alt="保育のイメージ2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/gabe-pierce-mLqWFEtlIEs-unsplash.jpg" alt="保育のイメージ3" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- メリット紹介 -->
+  <section class="benefits" data-aos="fade-up" data-aos-delay="650">
+    <h2>参加のメリット</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>柔軟な働き方</h3>
+        <p>週1日からOK。あなたのペースで働けます。</p>
+      </div>
+      <div class="card">
+        <h3>研修サポート</h3>
+        <p>ブランクがある方も安心の研修制度あり。</p>
+      </div>
+      <div class="card">
+        <h3>選べる勤務地</h3>
+        <p>自宅近くや希望エリアで勤務可能です。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- お問い合わせ -->
+  <section class="contact" id="contact" data-aos="fade-up" data-aos-delay="680">
+    <h2>お申し込み・お問い合わせ</h2>
+    <p class="contact-text">ご参加希望の方は、以下のメールアドレスまでご連絡ください。</p>
+    <a href="mailto:contact@style.jp" class="btn btn-primary contact-btn">📩 contact@style.jp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 スタイル株式会社</p>
+  </footer>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+  <!-- トップへ戻るボタン -->
+  <!--<button id="toTop" title="トップへ戻る">↑</button>-->
+ <button class="page-top" aria-label="ページトップへ戻る"><span>TOP</span></button>
+
+
+
+  <!-- スムーススクロール -->
+  <!--<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(anchor.getAttribute('href'));
+        if(target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>-->
+
+
+  <!-- ヘッダー縮小 -->
+  <script>
+    const header = document.querySelector('.site-header');
+window.addEventListener('scroll', () => {
+  // スクロール時に色が変わらないようにするため、何もしない
+});
+
+  </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toTopBtn = document.querySelector('.page-top');
+
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+          toTopBtn.classList.add('is-active');
+        } else {
+          toTopBtn.classList.remove('is-active');
+        }
+      });
+
+      toTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+  </script>
+
+  <!-- ハンバーガーメニュー -->
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const mainNav = document.getElementById('main-nav');
+    menuToggle.addEventListener('click', () => {
+      const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+      menuToggle.setAttribute('aria-expanded', !expanded);
+      mainNav.classList.toggle('open');
+    });
+  </script>
+
+
+  
+  
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.intro-swiper', {
+      loop: true,
+      pagination: { el: '.swiper-pagination', clickable: true },
+      navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+      autoplay: { delay: 4000, disableOnInteraction: false },
+    });
+  </script>
+
+  <script>
+  window.addEventListener('load', function () {
+    const loading = document.getElementById('loading');
+    if (loading) {
+      loading.style.display = 'none';
+    }
+  });
+</script>
+
+</body>
+</html>
